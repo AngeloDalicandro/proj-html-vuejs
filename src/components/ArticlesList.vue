@@ -85,9 +85,7 @@ export default {
 @import "../styles/variables.scss";
 
 .cards {
-    img {
-        padding-top: 2rem;
-    }
+    padding-top: 2rem;
 
     .collage {
         padding-top: 2rem;
@@ -148,6 +146,7 @@ export default {
                 align-items: center;
                 padding: 1.5rem 0;
                 border-bottom: 2px solid $light-grey;
+                margin-bottom: 2rem ;
 
                 ul {
                     list-style-type: none;
@@ -200,7 +199,7 @@ export default {
             line-height: 2rem;
             text-align: center;
             border: 1px solid $a-grey;
-            cursor: pointer;+
+            cursor: pointer;
 
             .active {
                 color: $white;
